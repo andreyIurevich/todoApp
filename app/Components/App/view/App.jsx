@@ -4,9 +4,8 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import { block } from 'bem-cn'
-import Welcome from './Welcome/Welcome.jsx'
 
-import './default.css'
+import '../../../src/default.css'
 import './App.sass'
 
 class App extends React.Component {
@@ -16,7 +15,6 @@ class App extends React.Component {
     
     return (
       <div className={b()}>
-        <Welcome />
       </div>
     );
   }

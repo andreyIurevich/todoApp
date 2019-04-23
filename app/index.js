@@ -5,7 +5,7 @@ import { compose, createStore, applyMiddleware } from 'redux'
 import { HashRouter, Route } from 'react-router-dom'
 import thunk from 'redux-thunk'
 import mainReducer from './src/Welcome/redux/reducer'
-import App from './src/App.jsx'
+import App from './Components/App/view/App.jsx'
 
 let store = createStore(
   mainReducer,
