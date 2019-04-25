@@ -46,7 +46,10 @@ class Menu extends React.Component {
             todoList={this.props.todoList} />
         </div>
         <div className={b('new-task')}>
-
+          <button
+            onClick={ () => { this.props.selectToDo(-1); }}>
+            Добавить новую
+          </button>
         </div>
       </div>
     );
